@@ -157,7 +157,7 @@ const AlertModal: React.FC<AlertProps> = ({ onClose }) => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 z-60 flex items-center justify-center bg-black/40"
+              className="fixed inset-0 z-60 px-3 md:px-0 flex items-center justify-center bg-black/40"
             >
               <motion.div
                 initial={{ scale: 0.9 }}
@@ -221,14 +221,14 @@ const AlertModal: React.FC<AlertProps> = ({ onClose }) => {
                           </div>
                         )}
 
-                        <div className='flex items-center gap-2 mt-2'>
+                        <div className='flex items-center gap-1 mt-2 mr-8 md:mr-0' >
                           <p>Price:</p>
 
                           <div
-                      className="w-full mt-1 flex justify-between px-4 py-5 rounded-full border border-[#525252] dark:bg-[#404040] dark:text-white outline-none"  >
+                      className="w-full mt-1 flex justify-between px-2 md:px-4 py-5 rounded-full border border-[#525252] dark:bg-[#404040] dark:text-white outline-none"  >
                       
                      <input type='number' className='bg-transparent outline-none' placeholder='Enter Price' />
-                     <Image src={ArrowDown} alt="Arrow Down" width={20} height={20} className='inline ml-2' />
+                     <Image src={ArrowDown} alt="Arrow Down" width={20} height={20} className='inline' />
                         </div>
 
                         </div>                      

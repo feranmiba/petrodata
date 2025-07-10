@@ -13,7 +13,7 @@ const reports = [
 
 export const ReportsSection: React.FC = () => {
   return (
-    <div className="bg-[#171717] rounded-2xl h-full  w-full md:max-w-sm p-5">
+    <div className="bg-[#171717] rounded-2xl h-[54vh]  w-full md:w-[50%] xl:max-w-sm p-5">
       <div className="flex items-center gap-2 mb-4">
       <p className='bg-[#E0F2F1] rounded-full px-2 py-2 flex items-center text-white justify-center '>
       <Image src={File} alt="File Icon" width={24} height={24} className="inline-block" />

@@ -18,7 +18,7 @@ export default function WidgetPage() {
         <FuelConsumptionWidgets />
       </div>
 
-      <div className="flex justify-between mt-10 gap-3 items-stretch flex-wrap md:flex-nowrap">
+      <div className="flex justify-between mt-10 gap-3 items-stretch flex-wrap xl:flex-nowrap">
         <ReportsSection />
         <AircraftUtilizationWidget />
         <FlightStatsWidgets />

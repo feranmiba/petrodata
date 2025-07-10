@@ -11,11 +11,11 @@ const data = [
 
 const AircraftUtilizationWidget = () => {
   return (
-    <section className="w-full h-full md:max-w-sm">
+    <section className="w-full h-full md:h-[55vh] md:w-[45%] xl:max-w-sm">
       <Image
         src={Pictures}
         alt="Aircraft Utilization"
-        className="w-full h-full object-cover rounded-t-lg"
+        className="w-full h-full object-cover rounded-t-lg md:rounded-2xl"
         width={500}
         height={500}
         />

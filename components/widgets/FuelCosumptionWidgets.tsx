@@ -44,7 +44,7 @@ export const FuelConsumptionWidgets: React.FC = () => {
   const [activeTab, setActiveTab] = useState('pms');
 
   return (
-    <div className="bg-[#171717] rounded-3xl  p-4 overflow-y-scroll custom-scrollbar h-[50vh]">
+    <div className="bg-[#171717] rounded-3xl  p-4 overflow-y-scroll custom-scrollbar md:h-[55vh] xl:h-[50vh]">
         <div className='flex  items-center mb-2 gap-2'>
 
             <p className='bg-[#E0F2F1] rounded-full px-2 py-2 flex items-center text-white justify-center '>
