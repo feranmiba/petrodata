@@ -140,8 +140,8 @@ function Flight() {
             <motion.div
               key="tab-s"
               initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0, transition }}
-              exit={{ opacity: 0, y: -20, transition }}
+              animate={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
+              exit={{ opacity: 0, y: -20, transition: { duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
               className="relative z-0 bg-[#171717] px-4 py-5 rounded-lg h-[58vh] mt-5"
             >
               {Stats}
@@ -169,8 +169,8 @@ function Flight() {
             <motion.div
               key="tab-m"
               initial={{ opacity: 0, x: -40 }}
-              animate={{ opacity: 1, x: 0, transition }}
-              exit={{ opacity: 0, x: 40, transition }}
+              animate={{ opacity: 1, x: 0, transition: { duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
+              exit={{ opacity: 0, x: 40, transition: { duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
               className="flex gap-4 bg-[#404040] shadow-2xl pr-3  rounded-xl mt-5"
             >
               <div className="w-[70%] bg-[#171717] px-3 py-4 rounded-l-lg shadow-2xl">
@@ -202,8 +202,8 @@ function Flight() {
             <motion.div
               key="tab-l"
               initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0, transition }}
-              exit={{ opacity: 0, y: -30, transition }}
+              animate={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
+              exit={{ opacity: 0, y: -30, transition: { duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
               className="bg-[#404040] shadow-2xl pb-3 py-2 rounded-b-xl mt-5"
             >
               <div className="bg-[#171717] h-[58vh] py-3 px-4 rounded-t-xl">
