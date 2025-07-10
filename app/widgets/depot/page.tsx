@@ -11,7 +11,6 @@ import {
   ResponsiveContainer,
   ReferenceLine,
 } from 'recharts';
-import { div } from 'framer-motion/client';
 
 const companies = [
   {
