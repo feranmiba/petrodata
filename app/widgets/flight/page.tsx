@@ -115,7 +115,7 @@ function Flight() {
           key={i}
           className="flex justify-between text-white py-2"
         >
-          <p className="text-[12px]">{airport.name}</p>
+          <p className="text-[12px]">{airport.name.slice(0, 90)}....</p>
           <p className="text-[12px] text-gray-300">{airport.flights}</p>
         </div>
       ))}

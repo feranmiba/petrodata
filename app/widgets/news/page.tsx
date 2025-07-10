@@ -21,7 +21,7 @@ function News() {
 
   return (
     <main className='flex justify-between mt-10'>
-      <section className="bg-[#404040] p-5 rounded-3xl w-[80%] mx-auto md:max-w-md">
+      <section className="bg-[#404040] p-5 rounded-3xl w-[80%] mx-auto md:mx-0 md:max-w-md">
         {/* Header */}
         <div>
           <h1 className="text-base font-medium text-[#F5F5F5]">News Widget</h1>
