@@ -22,6 +22,7 @@ import ProductIcon from './icons/productIcon.svg?url'
 import Flight from './icons/plane.svg?url'
 import Exchange from './icons/arrow-right-left.svg?url'
 import NewsPaper from './icons/newspaper.svg?url'
+import News from './icons/News Icon.svg?url'
 
 
 
@@ -49,5 +50,6 @@ export {
     ProductIcon,
     Flight,
     Exchange,
-    NewsPaper
+    NewsPaper,
+    News
 }

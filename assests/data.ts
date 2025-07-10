@@ -3,6 +3,10 @@ import David from '@/assests/icons/david.svg?url'
 import Report from '@/assests/icons/report.svg?url'
 import PriceAlert from '@/assests/icons/pricealert.svg?url'
 import Document from '@/assests/document.svg?url';
+import NewPicture from '@/assests/News widget.png';
+import Oando from '@/assests/Images/oando.png';
+import Enegies from '@/assests/Images/energy.png';
+import Dangote from '@/assests/Images/dangote.png';
 
 
 export const Reports = [
@@ -176,4 +180,38 @@ export interface Notification {
     subtitle: "Commented in PMS Price Analysis"
 },
   ];
+
+
+
+  export const NewsData = [
+    {
+      title: "Shareholders Enjoy a Massive Windfall as BP Expands Global Operations",
+      img: NewPicture,
+      brand: "Vanguard",
+      tags: ["ICE",],
+      description: "BP’s shareholders can expect a multibillion-dollar payout this year after the oil giant reported better than expected quarterly profits of almost $2.8 billion and set out plans to develop a new oil hub in the Gulf of Mexico.",
+    },
+    {
+      title: "Eni granted regulator consent for NAOC sales to Oando",
+      img: Oando,
+      brand: "Vanguard",
+      tags: ["ICE"],
+      description: "Eni received formal consent from the Nigerian Upstream Petroleum Regulatory Commission (NUPRC) for the sale of Nigerian Agip Oil Co. (NAOC) Ltd. to Oando Plc. Having already obtained all other relevant local and regulatory authorities’ authorizations, the consent allows Eni to proceed to the completion of the deal, the company said in a release July 24.",
+    },
+    {
+      title: "Chappal Energies to acquire SPDC JV interest in Nigeria from TotalEnergies",
+      img: Enegies,
+      brand: "Vanguard",
+      tags: ["PMS", "AGO"],
+      description: "Chappal Energies Mauritius Ltd. has agreed to acquire from TotalEnergies EP Nigeria its 10% interest in SPDC joint venture licenses in Nigeria for $860 million. SPDC JV is an unincorporated joint venture between Nigerian National Petroleum Corp. Ltd. (55%), Shell Petroleum Development Co. of Nigeria (30%, operator), TotalEnergies EP Nigeria (10%), and NAOC (5%), which holds 18 licenses in the Niger Delta.",
+    },
+    {
+      title: "Dangote Refinery Products Inferior To Imported Ones; Nigeria Can't Rely On Them Alone To Avoid Monopoly – Nigerian Agency, NMDPRA",
+      img: Dangote,
+      brand: "Vanguard",
+      tags: ["PMS", "AGO", "ICE"],
+      description: "Frouk Ahmed, the Chief Executive of the Nigerian Midstream and Downstream Petroleum Regulatory Authority (NMDPRA) has cautioned Nigerians against over-dependence on products from the Dangote refinery. Ahmed highlighted concerns over the consistency and standardisation of the refinery's output, stating that the quality of its products was inferior compared to the imported quality products.",
+    },
+  ];
+  
   

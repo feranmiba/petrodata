@@ -30,15 +30,21 @@ const Header: React.FC<HeaderProps> = ({ toggleSidebar }) => {
   }, []);
 
 
+  const isAnyModalOpen = Object.values(showModals).some(Boolean);
+
+
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 10); 
+      if (!Object.values(showModals).some(Boolean)) {
+        setScrolled(window.scrollY > 10);
+      }
     };
-
+  
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [showModals]);
+  
 
 
   const toggleTheme = () => {
@@ -49,9 +55,12 @@ const Header: React.FC<HeaderProps> = ({ toggleSidebar }) => {
   };
 
   return (
-    <header className={`sticky top-0 z-10 w-full px-4 sm:px-6 md:px-10 py-3 transition-all duration-300 border-b border-[#404040] ${
-      scrolled ? "shadow-2xl bg-[#262626]" : "bg-transparent"
-    }`}>
+    <header
+    className={`sticky top-0 z-10 w-full px-4 sm:px-6 md:px-10 py-3 transition-all duration-300 border-b border-[#404040] ${
+      scrolled && !isAnyModalOpen ? "shadow-2xl bg-[#262626]" : "bg-transparent"
+    }`}
+  >
+  
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         {/* Left side - Menu + Greeting */}
         <div className="flex items-start sm:items-center gap-3">

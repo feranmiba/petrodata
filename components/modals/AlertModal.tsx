@@ -117,8 +117,8 @@ const AlertModal: React.FC<AlertProps> = ({ onClose }) => {
             {Alert.map((alert, index) => (
               <div
                 key={index}
-                className="flex items-center justify-between p-2 mb-2 border-b-[0.5px] border-[#404040] hover:bg-black"
-              >
+                className="flex items-center justify-between p-2 mb-2 border-b-[0.5px] border-[#404040] hover:bg-neutral-800 cursor-pointer"
+                >
                 <div>
                   <h3 className="text-sm font-semibold">{alert.alert}</h3>
                   <p className={` ${alert.status === "Active" ? "text-[#12B76A]" : "text-[#12B76A]"} text-sm`}>

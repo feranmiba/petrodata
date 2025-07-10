@@ -142,7 +142,7 @@ export const FlightStatsWidgets: React.FC = () => {
           ))}
         </div>
 
-        <button className="absolute bottom-8 mt-6 bg-teal-600 text-white py-3 px-4 rounded-full transition-colors font-medium cursor-pointer">
+        <button className="absolute bottom-2 md:bottom-8 mt-6 bg-teal-600 text-white py-3 px-4 mx-auto left-16  right-16 rounded-full transition-colors font-medium cursor-pointer">
           <Image
             src={Messsage}
             alt="Message Icon"
