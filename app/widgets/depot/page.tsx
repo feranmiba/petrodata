@@ -199,7 +199,7 @@ function Depot() {
                 <button
                   key={tab.id}
                   onClick={() => setCommodityTab(tab.id)}
-                  className={`px-4 py-2 text-sm font-medium transition-colors cursor-pointer ${
+                  className={`px-1 md:px-4  py-2 text-sm font-medium transition-colors cursor-pointer ${
                     commodityTab === tab.id
                       ? 'text-white border-t-2 border-[#404040]'
                       : 'text-gray-400'
@@ -222,7 +222,7 @@ function Depot() {
             <button
               key={tab.id}
               onClick={() => setCommodityTab(tab.id)}
-              className={`px-4 py-2 text-sm font-medium transition-colors cursor-pointer ${
+              className={`px-2 md:px-4 py-2 text-sm font-medium transition-colors cursor-pointer ${
                 commodityTab === tab.id
                   ? 'text-white border-t-2 border-[#404040]'
                   : 'text-gray-400'
