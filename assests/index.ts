@@ -14,6 +14,14 @@ import ArrowDown from './icons/chevron-down.svg?url'
 import Check from './icons/check.svg?url'
 import Close from './icons/x.svg?url'
 import Sparkles from './icons/sparkles.svg?url'
+import Messsage from './icons/message.svg?url'
+import Warehouse from './icons/warehouse.svg?url'
+import Positive from './icons/Positive.svg?url'
+import File from './icons/file.svg?url'
+import ProductIcon from './icons/productIcon.svg?url'
+import Flight from './icons/plane.svg?url'
+import Exchange from './icons/arrow-right-left.svg?url'
+import NewsPaper from './icons/newspaper.svg?url'
 
 
 
@@ -33,5 +41,13 @@ export {
     ArrowDown,
     Check,
     Close,
-    Sparkles
+    Sparkles,
+    Messsage,
+    Warehouse,
+    Positive,
+    File,
+    ProductIcon,
+    Flight,
+    Exchange,
+    NewsPaper
 }

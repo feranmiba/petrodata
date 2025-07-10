@@ -2,6 +2,131 @@ import Gideon from '@/assests/icons/gideon.svg?url'
 import David from '@/assests/icons/david.svg?url'
 import Report from '@/assests/icons/report.svg?url'
 import PriceAlert from '@/assests/icons/pricealert.svg?url'
+import Document from '@/assests/document.svg?url';
+
+
+export const Reports = [
+  {
+    id: '1',
+    title: 'Report Week 1',
+    docs : [
+      {
+        id: '1',
+        name: 'PMS - Aug 12-17',
+        type: 'PMS',
+        image: Document,
+      },
+      {
+        id: '2',
+        name: 'DPK - Aug 12-17',
+        type: 'DPK',
+        image: Document,
+      },
+      {
+        id: '3',
+        name: 'AGO - Aug 12-17',
+        type: 'AGO',
+        image: Document,
+      },
+      {
+        id: '4',
+        name: 'ICE - Aug 12-17',
+        type: 'ICE',
+        image: Document,
+      }
+    ]  
+  },
+  {
+    id: '2',
+    title: 'Report Week 2',
+    docs : [
+      {
+        id: '1',
+        name: 'PMS - Aug 12-17',
+        type: 'PMS',
+        image: Document,
+      },
+      {
+        id: '2',
+        name: 'DPK - Aug 12-17',
+        type: 'DPK',
+        image: Document,
+      },
+      {
+        id: '3',
+        name: 'AGO - Aug 12-17',
+        type: 'AGO',
+        image: Document,
+      },
+      {
+        id: '4',
+        name: 'ICE - Aug 12-17',
+        type: 'ICE',
+        image: Document,
+      }
+    ]  
+  },
+  {
+    id: '3',
+    title: 'Report Week 3',
+    docs : [
+      {
+        id: '1',
+        name: 'PMS - Aug 12-17',
+        type: 'PMS',
+        image: Document,
+      },
+      {
+        id: '2',
+        name: 'DPK - Aug 12-17',
+        type: 'DPK',
+        image: Document,
+      },
+      {
+        id: '3',
+        name: 'AGO - Aug 12-17',
+        type: 'AGO',
+        image: Document,
+      },
+      {
+        id: '4',
+        name: 'ICE - Aug 12-17',
+        type: 'ICE',
+        image: Document,
+      }
+    ]  
+  }, 
+  {
+    id: '4',
+    title: 'Report Week 4',
+    docs : [
+      {
+        id: '1',
+        name: 'PMS - Aug 12-17',
+        type: 'PMS',
+        image: Document,
+      },
+      {
+        id: '2',
+        name: 'DPK - Aug 12-17',
+        type: 'DPK',
+        image: Document,
+      },
+      {
+        id: '3',
+        name: 'AGO - Aug 12-17',
+        type: 'AGO',
+        image: Document,
+      },
+      {
+        id: '4',
+        name: 'ICE - Aug 12-17',
+        type: 'ICE',
+        image: Document,
+      }
+    ]  
+  }
+]
 
 export const Alert = [
     {

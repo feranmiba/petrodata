@@ -5,11 +5,11 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import DesktopSidebar from "@/components/DesktopSidebar";
 import Header from "@/components/Header";
-// import MobileSidebar from "@/components/layouts/MobileSidebar";
+import MobileSidebar from "@/components/MobileSidebar";
 import { LayoutDashboard, Analytics, Book, Sparkle, Bookmark, Settings } from "@/assests";
 
 const sidebarItems = [
-  { icon: LayoutDashboard, text: "Dashboard", href: "/" },
+  { icon: LayoutDashboard, text: "Dashboard", href: "/dashboard" },
   {
     icon: Analytics,
     text: "Analysis",
@@ -90,12 +90,12 @@ export default function DashboardLayout({
         pathname={pathname}
       />
 
-      {/* <MobileSidebar
+      <MobileSidebar
         pathname={pathname}
         sidebarItems={sidebarItems}
         mobileMenuOpen={mobileMenuOpen}
         setMobileMenuOpen={setMobileMenuOpen}
-      /> */}
+      />
 
       <div
         className={`flex-1 ${

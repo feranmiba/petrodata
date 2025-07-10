@@ -32,9 +32,9 @@ const NotificationModal: React.FC<NotificationProps> = ({ onClose }) => {
     animate={{ opacity: 1, x: 0 }}
     exit={{ opacity: 0, x: 100 }}
     transition={{ duration: 0.4 }}
-    className="absolute top-4 -right-4 z-50 w-[400px] h-[100vh] bg-[#171717] rounded-lg shadow-lg flex flex-col"
+    className="absolute top-4 right-1 md:-right-4 z-50 w-[400px] h-[100vh] bg-[#171717] rounded-lg shadow-lg flex flex-col"
   >
-    {/* Top Bar (Sticky Header) */}
+
     <div className="sticky top-0 z-10 bg-[#171717] p-4 border-b border-[#333]">
       <div className="flex items-center justify-between">
         <h1 className="text-white text-base font-semibold">Your notifications</h1>
